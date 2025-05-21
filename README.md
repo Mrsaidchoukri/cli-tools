@@ -75,3 +75,7 @@ Location: `perf-monitor/`
 
 ## Testing
 - Run tests: `./file-search/test.sh`, `python3 text-processor/test_process.py`, `./perf-monitor/src/test_system.sh`, `./tests/integration_test.sh`, `./tests/stress_test.sh`
+=======
+# cli-tools
+CLI tools project including file search, text processor, and system monitor.
+
