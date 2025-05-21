@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+venv/
+*.o
+system_monitor
+debug.log
+*.log
