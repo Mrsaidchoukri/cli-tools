@@ -26,7 +26,7 @@ echo "$emails"
 
 # Step 3: Run system_monitor in the background
 echo "Step 3: Starting system_monitor to observe resource usage..."
-perf-monitor/system_monitor &
+perf-monitor/src/system_stats &
 monitor_pid=$!
 sleep 2  # Let it run for 2 seconds to show output
 kill $monitor_pid 2>/dev/null
